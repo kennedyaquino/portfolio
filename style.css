@@ -1,0 +1,134 @@
+body {
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin-inline: 10px;
+    font-weight: bold;
+    color: #F2F2F2;
+    cursor: pointer;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list a:hover {
+    color: #BFBFBF;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #373640;
+    height: 50px;
+}
+
+main {
+    padding: 20px 20px 20px 20px;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 15rem;
+}
+
+.about {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects {
+    text-align: justify;
+}
+
+.card-project {
+    border: 1px solid #373640;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-project p a {
+    color: #D9D9D9;
+    text-decoration: none;
+    background-color: #373640;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 0px 20px 20px 20px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.contacts img {
+    width: 24px;
+    height: 24px;
+}
+
+.contacts p {
+    margin-left: 5px;
+}
+
+.contacts p a{
+    text-decoration: none;
+    color: #373640;
+}
+
+@media (min-width: 1024px) {
+    main {
+        margin-top: 20px;
+    }
+
+    .about {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about p {
+        width: 650px;
+    }
+    
+    .projects {
+        display: flex;
+        gap: 12px;
+    }
+
+    footer h3 {
+        text-align: center;
+    }
+
+    .container-contacts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+}
+
+@media (min-width: 1440px) {
+    main {
+        padding:  0px 50px 50px 50px;
+    }
+}
+
+/* #373640
+#BFBFBF
+#A6A3A1
+#F2F2F2
+#D9D9D9 */
